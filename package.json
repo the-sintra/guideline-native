@@ -1,0 +1,46 @@
+{
+  "name": "@the-sintra/eslint-config-native",
+  "version": "1.0.5",
+  "description": "ESLint 설정 패키지 for React Native (Expo)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-sintra/guideline-native.git"
+  },
+  "keywords": [
+    "code",
+    "guideline",
+    "react-native",
+    "expo"
+  ],
+  "author": {
+    "name": "Sungju Cho",
+    "email": "hello@devfiro.com",
+    "url": "https://github.com/iamfiro"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-sintra/guideline-native/issues"
+  },
+  "homepage": "https://github.com/the-sintra/guideline-native#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
