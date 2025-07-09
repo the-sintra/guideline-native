@@ -14,12 +14,10 @@ export default [
   /* ------------------------------------------------------------------
    * 1) 기존 extends → FlatCompat 로드
    * ------------------------------------------------------------------ */
-  ...compat.extends([
-    'airbnb',
-    'airbnb-typescript',
-    'airbnb/hooks',
-    'plugin:@typescript-eslint/recommended',
-  ]),
+  ...compat.extends('airbnb'),
+  ...compat.extends('airbnb-typescript'),
+  ...compat.extends('airbnb/hooks'),
+  ...compat.extends('plugin:@typescript-eslint/recommended'),
 
   /* ------------------------------------------------------------------
    * 2) 프로젝트 공통 설정
